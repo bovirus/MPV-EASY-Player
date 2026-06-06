@@ -96,7 +96,7 @@ Nota: questa funzione non cancellerà i file progresso riproduzione generati dal
         <source>仅【记住播放进度】勾选时有效.
 激活后,播放列表中存在非单个文件时,会忽略进度从头开始播放.
 此参数能够解决播放播放列表与播放进度功能之间的干扰问题.</source>
-        <translation>Valido solo quando è seelzionato [ricorda progresso riproduzione].
+        <translation>Valido solo quando è selezionato [ricorda progresso riproduzione].
 Dopo l&apos;attivazione, quando nella playlist ci sono file non singoli, i progressi verranno ignorati e i file verranno riprodotti dall&apos;inizio.
 Questo parametro può risolvere il problema delle interferenze tra la playlist e la funzione progresso riproduzione.</translation>
     </message>
@@ -126,7 +126,7 @@ La playlist è ordinata per nome file.
 【跳过片尾】和【播放时长】建议只使用其中一个.
 【跳过片尾】和【播放时长】的时间点,先到达的那个生效.
 【跳过片尾】的时间点请勿在【跳过片头】之前.</source>
-        <translation>Per l&apos;uso e le precauzioni, fai riferimento ai suggerimenti per [punto iniziale] e presta attenzione ai segni [+] e [-] prima del tempo.
+        <translation>Per uso e precauzioni, fai riferimento ai suggerimenti per [punto iniziale] e presta attenzione ai segni [+] e [-] prima del tempo.
 Ad esempio, per saltare a 50 secondi prima della fine, inserisci -00: 50
 Ad esempio, per saltare alla fine quando la riproduzione è 1 ora, 55 minuti e 44 secondi inserisci 01:55:44
 Ti consigliamo di usare solo uno tra [punto finale] e [lunghezza riproduzione].
@@ -141,7 +141,7 @@ Il punto temporale [punto finale] non dovrebbe essere prima di [punto iniziale].
 比如:跳过1小时1分30秒片头输入 +01:01:30
 比如:片头跳转到视频结束前3分钟 -03:00
 【跳过片头】优先级高于【播放进度】,2者都启用时播放起始点以前者为准.</source>
-        <translation>Usa il seguente metodo per abilitare questa funzione. nota i segni [+] e [-] prima del tempo.
+        <translation>Per abilitare questa funzione usa il seguente metodo. Nota i segni [+] e [-] prima del tempo.
 Ad esempio: salta 50 secondi dell&apos;ingresso del titolo +00: 50
 Ad esempio: salta 1 minuto e 30 secondi dal titolo +01: 30
 Ad esempio: salta 1 ora e 1 minuto e 30 secondi dal titolo +01: 01: 30
@@ -156,7 +156,7 @@ Ad esempio: salta a 3 minuti prima della fine del video -03: 00
 【跳过片尾】和【播放时长】建议只使用其中一个.
 【跳过片尾】和【播放时长】的时间点,先到达的那个生效.</source>
         <translation>Questa impostazione è adatta per scenari in cui il [punto finale] non funziona bene.
-Per l&apos;uso e le precauzioni, fai riferimento ai suggerimenti per [punto iniziale] e presta attenzione ai segni [+] e [-] prima del tempo.
+Per uso e precauzioni, fai riferimento ai suggerimenti per [punto iniziale] e presta attenzione ai segni [+] e [-] prima del tempo.
 Ad esempio, per andare a 50 secondi dopo aver saltato l&apos;apertura, inserisci +00: 50
 Ti consigliamo di usare solo uno tra [punto finale] e [lunghezza riproduzione].
 Il punto temporale [punto finale] e [lunghezza riproduzione], avrà effetto in base a quale arriva prima.</translation>
@@ -363,7 +363,8 @@ supporta il percorso non inglese, poiché Windows è molto ostile agli script, s
         <location filename="../mainwindow.ui" line="1436"/>
         <source>原生3=理论:★★★★★ 目前:★★★★★
 支持中文路径,由于windows对脚本的读取不友好，如果脚本依旧因为中文路径问题无法运行请使用其他运行模式</source>
-        <translation></translation>
+        <translation>modo 3=teoria:+++++ attualmente:+++++
+supporta il percorso non inglese, perché Windows è molto ostile allo scripting, se lo script non riesce ancora a essere eseguito a causa di un problema con il percorso non inglese, usa un&apos;altra modalità di esecuzione</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1558"/>
@@ -419,7 +420,7 @@ supporta il percorso non inglese, poiché Windows è molto ostile agli script, s
         <location filename="../mainwindow.ui" line="3253"/>
         <location filename="../mainwindow.ui" line="3692"/>
         <source>OSC(播放控制界面)</source>
-        <translation>OSC (on screen controller)</translation>
+        <translation>OSC (nel controller schermo)</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="4165"/>
@@ -1094,7 +1095,7 @@ in modalità GUI nativa mpv, se sono abilitate più istanze
 在windows 8及更高版本的操作系统中,如果在【用户账户控制设置】界面调整过滑块并点击过【确定】按钮,UAC极有可能被再次自动开启,想要再次关闭UAC请重复上方步骤.</source>
         <oldsource>注意:
 在windows 8及更高版本的操作系统中,如果在【用户账户控制设置】界面调整过滑块并点击过【确定】按钮,UAC极有可能被再次自动开启，此时需要你根据上方步骤再次关闭UAC.</oldsource>
-        <translation>Nota: nei sistemi operativi Windows 8 e versioni successive, se si regola il dispositivo di scorrimento nell&apos;interfaccia &apos;Impostazioni controllo account utente&apos; e fai clic sul pulsante &apos;OK&apos;, è molto probabile che l&apos;UAC venga riattivato automaticamente, per disattivare nuovamente l&apos;UAC, ripetere i passaggi.</translation>
+        <translation>Nota: nei sistemi operativi Windows 8 e versioni successive, se si regola il dispositivo di scorrimento nell&apos;interfaccia &apos;Impostazioni controllo account utente&apos; e seleziona &apos;OK&apos;, è molto probabile che l&apos;UAC venga riattivato automaticamente, per disattivare nuovamente l&apos;UAC, ripeti i passaggi.</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="7061"/>
@@ -1241,7 +1242,7 @@ Attenzione: usando priorità tempo reale può causare il blocco del sistema</tra
 In questa modalità, mpv verrà eseguito nel back-end, quindi le impostazioni relative alla GUI nativa di mpv nella schermata &apos;Impostazioni MPV-EASY&apos; verranno automaticamente disabilitate, ovvero, se si desidera usare queste impostazioni, seleziona &apos;GUI nativa mpv&apos;.
 2. &apos;MPV-EASY&apos; mantiene un&apos;elevata compatibilità con mpv. 
 In questa modalità, puoi ancora godere di varie funzionalità di mpv.
-Ad esempio, oltre a &apos;ESC&apos;, altri tasti rapidi verranno inoltrati direttamente a mpv, puoi comunque usare la tastiera per controllare e usare vari script lua.</translation>
+Ad esempio, oltre a &apos;ESC&apos;, altri tasti rapidi verranno inoltrati direttamente a mpv, per controllare e usare vari script lua puoi comunque usare la tastiera.</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="1584"/>
@@ -1250,7 +1251,7 @@ Ad esempio, oltre a &apos;ESC&apos;, altri tasti rapidi verranno inoltrati diret
 3.因此,当使用lua、js等脚本来增强mpv的功能时,如果脚本中使用【mp.utils.write_file】等命令+【相对路径】生成文件,此文件在【MPV-EASY运行模式】改变后,会因为参照物的改变生成在不同路径下.</source>
         <translation>1. &apos;Modo 1&apos; &apos;Modo 3&apos;: &apos;percorso relativo&apos; prende il percorso di MPV-EASY Player.exe come riferimento.
 2. altri modi esecuzione: &apos;percorso relativo&apos; prende il percorso di mpv.exe come riferimento.
-3. Quindi, quando si usano lua, js e altri script per migliorare la funzione di mpv, se lo script usa &apos;mp.utils.write_file&apos; e altri comandi + &apos;percorso relativo&apos; per generare i file, questo file è modificato in &apos;modo esecuzione&apos;. 
+3. Quindi, per migliorare la funzione di mpv, quando si usano lua, js e altri script se lo script usa &apos;mp.utils.write_file&apos; e altri comandi + &apos;percorso relativo&apos; per generare i file, questo file è modificato in &apos;modo esecuzione&apos;. 
 Verrà creato in percorsi diversi a causa della modifica dell&apos;oggetto di riferimento.</translation>
     </message>
     <message>
@@ -1296,7 +1297,7 @@ solo quando &apos;Mantieni finestra in primo piano durante la riproduzione&apos;
 如果不使用【跳过片头】,【重复播放】效果更佳
 如果使用【跳过片头】,【循环播放】效果更佳</source>
         <translation>Per un singolo file: ripeti &apos;file attuale&apos; (tempo: illimitato).
-per una playlist: ripeti &apos;file attuale&apos; (tempo: illimitato)
+Per una playlist: ripeti &apos;file attuale&apos; (tempo: illimitato)
 seleziona &apos;Ripeti file&apos; e &apos;Ripeti playlist&apos; in base allo scenario d&apos;uso.
 &apos;Ripeti file&apos; ha una priorità maggiore rispetto a &apos;Ripeti playlist&apos; e non è consigliabile attivarli contemporaneamente 
 Quando vuoi eseguire la ripetizione di un singolo file:
@@ -1406,7 +1407,7 @@ Per privacy, usalo con cautela.</translation>
 【profile= #default】:mpv的默认值,兼顾画质和GPU消耗
 【profile=fast】:低画质,低GPU消耗
 请关注播放不同文件时的gpu使用率差异.</source>
-        <translation>configurazione usata per le impostazioni quando il driver output è impostato su gpu o gpu-next (profilo per vo=gpu/gpu-next).
+        <translation>Configurazione usata per le impostazioni quando il driver output è impostato su gpu o gpu-next (profilo vo=gpu/gpu-next).
 quando il driver output è gpu o gpu-next:
 [profile=high-quality]: alta qualità immagine, elevato consumo GPU
 [profile= #default]: valore predefinito di mpv, bilanciamento qualità immagine e consumo GPU
@@ -1428,7 +1429,7 @@ cuda, cuda-copy, nvdec, nvdec-copy si usano solo con schede grafiche Nvidia che 
     <message>
         <location filename="../mainwindow.ui" line="2721"/>
         <source>查看【快捷键】-【禁用鼠标左键的播放暂停功能】及提示信息,可解决拖放后的自动暂停问题.</source>
-        <translation>Seleziona &apos;Tasti rapidi&apos; - &apos;Disabilita funzione pausa riproduzione con il pulsante sinistro del mouse&apos; e chiedi un messaggio per risolvere il problema della pausa automatica dopo il trascinamento della selezione.</translation>
+        <translation>Per risolvere il problema della pausa automatica dopo il trascinamento della selezione seleziona &apos;Tasti rapidi&apos; - &apos;Disabilita funzione pausa riproduzione con il pulsante sinistro del mouse&apos; e chiedi un messaggio.</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="2807"/>
@@ -1579,7 +1580,7 @@ Sempre quando richiesto: visualizza sempre OSC</translation>
     <message>
         <location filename="../mainwindow.ui" line="3958"/>
         <source>鼠标在多大区域移动能激活OSC*:</source>
-        <translation>Sposta il mouse sull&apos;area per attivare l&apos;OSC*:</translation>
+        <translation>Per attivare l&apos;OSC* sposta il mouse sull&apos;area:</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="3988"/>
@@ -1635,8 +1636,8 @@ mpv原版osc.lua文件内容请参考 github.com/mpv-player/mpv/blob/master/play
 Verifica questo parametro e usa lo stile OSC esterno predefinito quando la casella di input è vuota. Impostazioni: &apos;Stile OSC&apos; = box, &apos;Stile barra ricerca = bar&apos;, &apos;Alfa OSC = 45.
 Per il contenuto mpv del file osc.lua originale, fai riferimento a github.com/mpv-player/mpv/blob/master /player/lua/osc.lua. I file di stile OSC esterni vengono modificati da questo file
 per esempio: OSC-***-bottombar-knob-100-180.lua questo file è chiamato usando &apos;nome-Stile OSC-Stile barra ricerca-Alfa OSC.lua&apos; combinato.
-Significa che l&apos;OSC esterno otterrà i migliori risultati con &apos;Stile OSC&apos; =bottombar, &apos;Stile barra ricerca = knob e &apos;Alfa OSC&apos; = 100-180.
-Dopo aver modificato il file stile OSC (.lua) nella cartella stile OSC, è necessario usare nuovamente la funzione di selezione, fare clic su &apos;OK&apos; e questo non avrà effetto fino a quando il programma non verrà eseguito nuovamente.
+Significa che l&apos;OSC esterno otterrà i migliori risultati con &apos;Stile OSC&apos; =barra inferiore, &apos;Stile barra ricerca = knob e &apos;Alfa OSC&apos; = 100-180.
+Dopo aver modificato il file stile OSC (.lua) nella cartella stile OSC, è necessario usare nuovamente la funzione di selezione, seleziona &apos;OK&apos; e questo non avrà effetto fino a quando il programma non verrà eseguito nuovamente.
 Il file OSC esterno è una copia dell&apos;OSC integrato di mpv e 2 sono condivisi. stesse impostazioni OSC, quindi le impostazioni in questa interfaccia sono valide per OSC esterno.
 Se hai familiarità con gli script e il fondo lua, modificando OSC.lua puoi creare uno stile specifico OSC.
 Come minimo puoi anche modificare quelle impostazioni non accessibili, come la modifica del colore di sfondo OSC.
@@ -1709,7 +1710,7 @@ L&apos;interfaccia OSC deve essere nascosta prima di essere effettivamente nasco
     <message>
         <location filename="../mainwindow.ui" line="4830"/>
         <source>画面中使用文字、图形短暂显示目前播放进度、音量等信息的区块(无控制功能).</source>
-        <translation>Usa testo e grafica per visualizzare l&apos;avanzamento della riproduzione, il volume, ecc. (nessuna funzione di controllo).</translation>
+        <translation>Per visualizzare l&apos;avanzamento della riproduzione, il volume, ecc. usa testo e grafica (nessuna funzione di controllo).</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="4846"/>
@@ -1737,7 +1738,7 @@ L&apos;interfaccia OSC deve essere nascosta prima di essere effettivamente nasco
         <source>调节范围:-1到1
 (1=底部,0.5=默认,0=中间,-1=顶部)</source>
         <translation>Valori: da -1 a 1
-(1=bottom, 0.5=default, 0=middle, -1=top)</translation>
+(1=in basso, 0.5=predefinito, 0=in mezzo, -1=in alto)</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="4983"/>
@@ -1757,12 +1758,12 @@ L&apos;interfaccia OSC deve essere nascosta prima di essere effettivamente nasco
     <message>
         <location filename="../mainwindow.ui" line="5139"/>
         <source>OSD文字信息和左右窗口边框之间的距离:</source>
-        <translation>Margine sinistro/destro schermo per OSD:</translation>
+        <translation>Margine sinistro/destro OSD schermo:</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="5166"/>
         <source>OSD文字信息和上下窗口边框之间的距离:</source>
-        <translation>Margine alto/basso schermo per OSD:</translation>
+        <translation>Margine alto/basso OSD schermo:</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="5193"/>
@@ -2366,7 +2367,7 @@ che non potrà nemmeno aprire i file usando il trascinamento della selezione.</t
     <message>
         <location filename="../dialogresetwindow.ui" line="30"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;点击【确定】:重置&lt;/p&gt;&lt;p&gt;点击【取消】:返回&lt;/p&gt;&lt;p&gt;*重置后,重新运行MPV-EASY Player才会生效.&lt;/p&gt;&lt;p&gt;*重置后,重新运行本程序才会正确读取新配置文件.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;click &apos;OK&apos; = Ripristina&lt;/p&gt;&lt;p&gt;Seleziona &apos;Annulla&apos; = Invio&lt;/p&gt;&lt;p&gt;* Dopo il ripristino, ri-esegui mpv-easy player.exe per applicare le modifiche. &lt;/p&gt;&lt;p&gt;* Dopo il ripristino, ri-esegui l&apos;applicazione per caricare la nuova configurazione.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;click &apos;OK&apos; = Ripristina&lt;/p&gt;&lt;p&gt;Seleziona &apos;Annulla&apos; = Invio&lt;/p&gt;&lt;p&gt;* Dopo il ripristino, per applicare le modifiche ri-esegui mpv-easy player.exe. &lt;/p&gt;&lt;p&gt;* Dopo il ripristino, per caricare la nuova configurazione ri-esegui l&apos;applicazione.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../dialogresetwindow.ui" line="74"/>
